@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -28,7 +28,7 @@ footer {
 /* #region Header */
 
 .logo {
-  font-family: 'Releway', sans-serif;
+  font-family: "Releway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -128,7 +128,7 @@ footer {
 /* region section 2 */
 
 .section-our-team {
-  background: #fff;
+  background:#F4F4FD;
 }
 .section-our-team-title {
   font-weight: 700;
@@ -141,7 +141,7 @@ footer {
 }
 
 .our-team-menu {
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 .our-team-workers-img {
@@ -202,7 +202,7 @@ footer {
 /* region footer */
 
 .footer-logo {
-  font-family: 'Releway', sans-serif;
+  font-family: "Releway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
