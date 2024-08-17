@@ -63,14 +63,8 @@ footer {
   color: #434455;
 }
 
-.address-mailto:hover,
-.address-mailto:focus,
-.address-tel:hover,
-.address-tel:focus {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -154,6 +148,7 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .our-team-position {
@@ -166,6 +161,10 @@ footer {
 /* endregion section 2 */
 
 /* region section 3 */
+
+.section-our-portfolio {
+  background-color: #fff;
+}
 
 .section-our-portfolio-title {
   font-weight: 700;
@@ -182,6 +181,7 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .our-portfolio-descr {
