@@ -28,7 +28,7 @@ footer {
 /* #region Header */
 
 .logo {
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -140,7 +140,7 @@ footer {
   color: #2e2f42;
 }
 
-.our-team-menu {
+.our-team-item {
   background-color: #FFFFFF;
 }
 
@@ -202,7 +202,7 @@ footer {
 /* region footer */
 
 .footer-logo {
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
