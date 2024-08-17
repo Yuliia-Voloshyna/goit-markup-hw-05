@@ -51,7 +51,7 @@ footer {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #9747ff;
+  color: #404bbf;
 }
 
 .address-mailto,
@@ -126,7 +126,7 @@ footer {
 /* region section 2 */
 
 .section-our-team {
-  background: #f4f4fd;
+  background: #fff;
 }
 .section-our-team-title {
   font-weight: 700;
@@ -147,8 +147,8 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .our-team-position {
@@ -180,8 +180,8 @@ footer {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .our-portfolio-descr {
