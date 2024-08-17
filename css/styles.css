@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
 }
 
 ul,
@@ -15,12 +17,21 @@ button {
   cursor: pointer;
 }
 
+address {
+  font-style: normal;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
 /* #region Header */
 
 .logo {
+  font-family: 'Releway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.1666;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -74,7 +85,7 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -98,3 +109,110 @@ button {
 }
 
 /* endregion Hero */
+
+/* region section 1 */
+
+.advantages-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.address-item-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* endregion section 1 */
+
+/* region section 2 */
+
+.section-our-team {
+  background: #f4f4fd;
+}
+.section-our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-team-workers-img {
+  background: url('path_to_image');
+}
+
+.our-team-workers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+/* endregion section 2 */
+
+/* region section 3 */
+
+.section-our-portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-portfolio-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.our-portfolio-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* endregion section 3 */
+
+/* region footer */
+
+.footer-logo {
+  font-family: 'Releway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-span {
+  color: #f4f4fd;
+}
+
+.footer-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/* endregion footer */
