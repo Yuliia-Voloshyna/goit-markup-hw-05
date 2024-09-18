@@ -72,10 +72,13 @@ footer {
 
 /* #region Header */
 
-.container {
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav {
@@ -157,7 +160,7 @@ footer {
   padding-bottom: 188px;
 }
 
-.container-hero {
+.container {
   display: flex;
   flex-direction: column;
 }
