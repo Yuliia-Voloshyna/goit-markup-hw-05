@@ -248,6 +248,13 @@ footer {
   padding-bottom: 32px;
 }
 
+.our-team-menu-item {
+  background-color: #ffffff;
+  width: calc((100%-72px)/4);
+  margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
+}
+
 .section-our-team {
   background: #f4f4fd;
   width: 1440px;
@@ -273,11 +280,6 @@ footer {
   padding-top: 72px;
 }
 
-.our-team-menu-item {
-  background-color: #ffffff;
-  width: calc((100%-72px / 4));
-  margin-bottom: 120px;
-}
 
 .container-menu-item {
   padding-top: 32px;
@@ -389,9 +391,10 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
   margin-bottom: 16px;
   width: 1440px;
-  display: inline-block;
+  
 }
 
 .footer-span {
