@@ -338,9 +338,14 @@ footer {
   align-content: center;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
-.container {
+.our-portfolio-menu-list {
+  width: calc((100%-48px)/3);
+}
+
+.container-our-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
