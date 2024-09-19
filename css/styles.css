@@ -76,8 +76,7 @@ footer {
 }
 
 .container-header {
-   display: flex;
-  justify-content: space-between;
+  display: flex;
 }
 
 .nav {
@@ -130,7 +129,6 @@ footer {
 }
 
 .address-link {
-  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
   font-weight: 400;
@@ -387,8 +385,7 @@ footer {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
-  width: 1440px;
-}
+ }
 
 .footer-span {
   color: #f4f4fd;
