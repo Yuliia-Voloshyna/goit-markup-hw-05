@@ -55,7 +55,7 @@ img {
 
 a {
   text-decoration: none;
- }
+}
 
 button {
   cursor: pointer;
@@ -105,9 +105,9 @@ footer {
 }
 
 .menu-link {
-  /* display: block; */
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -129,8 +129,8 @@ footer {
 }
 
 .address-link {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -216,7 +216,7 @@ footer {
 }
 
 .advantages-menu-list {
-  width: calc((100%-72px)/4);
+  width: calc((100%-72px) / 4);
 }
 
 .advantages-item {
@@ -250,7 +250,7 @@ footer {
   background-color: #ffffff;
   margin-bottom: 120px;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100%-72px)/4);
+  width: calc((100%-72px) / 4);
 }
 
 .section-our-team {
@@ -304,7 +304,7 @@ footer {
 /* #region section 3 */
 
 .our-portfolio-menu-list {
-  width: ((100% - 48px)/3);
+  width: calc((100%-48px) / 3);
 }
 
 .section-our-portfolio {
@@ -338,7 +338,7 @@ footer {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  }
+}
 
 .our-portfolio-item {
   font-weight: 500;
@@ -378,12 +378,9 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.footer-link {
   display: inline-block;
   margin-bottom: 16px;
- }
+}
 
 .footer-span {
   color: #f4f4fd;
