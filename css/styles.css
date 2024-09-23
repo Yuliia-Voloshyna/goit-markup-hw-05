@@ -31,10 +31,8 @@ body {
 
 .container {
   max-width: 1158px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section-paddings {
@@ -126,7 +124,7 @@ footer {
 
 .address {
   display: flex;
-   gap: 40px;
+  gap: 40px;
 }
 
 .address-link {
@@ -331,7 +329,7 @@ footer {
 }
 
 .our-portfolio-menu-list {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .container-our-portfolio {
@@ -347,7 +345,8 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
- }
+  margin-bottom: 8px;
+}
 
 .our-portfolio-descr {
   font-size: 16px;
