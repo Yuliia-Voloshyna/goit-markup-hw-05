@@ -74,6 +74,14 @@ footer {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.container-header {
+display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
 .nav {
   display: flex;
     align-items: center;
@@ -357,11 +365,11 @@ footer {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
-}
+  }
 
 .container-footer {
   display: inline-block;
- }
+   }
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -371,11 +379,13 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
   }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-left: 156px;
 }
 
 .footer-span {
@@ -388,5 +398,6 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-left: 156px;
 }
 /* #endregion footer */
