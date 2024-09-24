@@ -73,11 +73,13 @@ footer {
 .container-header {
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 24px;
-  margin-bottom: 24px;
+ padding-top: 24px;
+ padding-bottom: 24px;
   padding-left: 15px;
   padding-right: 15px;
   flex-direction: row;
+  margin: 0 auto;
+  display: flex;
 }
 
 .header {
@@ -247,7 +249,7 @@ footer {
 .container-our-team {
   display: flex;
   flex-direction: column;
-    padding: 32px 0;
+  padding: 32px 0;
 }
 
 .our-team-menu-item {
@@ -293,6 +295,7 @@ footer {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
+  padding-top: 32px;
 }
 
 .our-team-position {
