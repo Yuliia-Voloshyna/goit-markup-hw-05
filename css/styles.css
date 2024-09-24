@@ -77,10 +77,7 @@ footer {
 .nav {
   display: flex;
     align-items: center;
-  justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+ }
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -123,7 +120,7 @@ footer {
 .address {
   display: flex;
   gap: 40px;
-}
+  }
 
 .address-link {
   padding-top: 24px;
@@ -361,6 +358,10 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.container-footer {
+  display: inline-block;
+ }
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
