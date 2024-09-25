@@ -71,12 +71,6 @@ footer {
 /* #region Header */
 
 .container-header {
-  flex-wrap: wrap;
-  justify-content: space-between;
- padding-top: 24px;
- padding-bottom: 24px;
-  flex-direction: row;
-  margin: 0 auto;
   display: flex;
 }
 
