@@ -279,8 +279,7 @@ footer {
 }
 
 .container-our-team-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding: 32px 0;
 }
 
 .our-team-workers {
