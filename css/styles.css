@@ -418,7 +418,6 @@ position: absolute;
 .container-overlay {
   position: relative;
   overflow: hidden;
-  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-our-portfolio {
@@ -434,6 +433,7 @@ position: absolute;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio-descr {
@@ -538,7 +538,6 @@ max-width: 208px;
   border-radius: 50%;
   line-height: 0;
   position: relative;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon-footer {
@@ -546,7 +545,7 @@ max-width: 208px;
   position: absolute;
 }
 
-.social-list-link-footer:hover, .social-list-footer-link:focus {
+.social-list-link-footer:hover, .social-list-link-footer:focus {
   background-color: #31D0AA;
 }
 /* #endregion footer */
