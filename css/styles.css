@@ -641,7 +641,7 @@ footer {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-btn {
+.subscribe-btn-icon {
   margin-left: 16px;
 }
 
@@ -663,7 +663,7 @@ footer {
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-backdrop.is-open {
@@ -685,6 +685,7 @@ footer {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -708,7 +709,6 @@ footer {
   height: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
@@ -734,6 +734,7 @@ footer {
 
 .review-form-input-wrapper {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .review-form-field-label {
@@ -742,7 +743,7 @@ footer {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
-  line-height: 1, 17;
+  line-height: 1.17;
 }
 
 .review-form-input {
@@ -783,7 +784,7 @@ footer {
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  background-color: rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   resize: none;
   font-size: 12px;
@@ -791,6 +792,7 @@ footer {
   letter-spacing: 0.04em;
   color: #2e2f42;
   outline: transparent;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -847,7 +849,7 @@ footer {
   cursor: pointer;
   fill: transparent;
   margin-right: 8px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
