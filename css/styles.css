@@ -718,6 +718,10 @@ footer {
   border: none;
 }
 
+.modal-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-slogan {
   font-weight: 500;
   font-size: 16px;
@@ -729,7 +733,7 @@ footer {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .review-form-input-wrapper {
@@ -790,7 +794,6 @@ footer {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #2e2f42;
   outline: transparent;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -873,7 +876,6 @@ footer {
 
 .review-form-submit-btn:hover,
 .review-form-submit-btn:focus {
-  color: #404bbf;
   background-color: #404bbf;
 }
 
